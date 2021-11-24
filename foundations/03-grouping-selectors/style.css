@@ -1,0 +1,14 @@
+.emo,
+.sun {
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+}
+
+.emo {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.sun {
+    background-color: #ffff00;
+}
