@@ -10,9 +10,6 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
-}
-
-.title {
   display: flex;
   justify-content: center;
   margin: 0 0 32 0;
@@ -21,16 +18,24 @@ img {
 .images {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 52px;
+  text-align: center;
+  margin: 32px;
 }
 
-/*.image-1,
+.image-1,
 .image-2,
 .image-3,
 .image-4 {
+  width: 200px;
+}
+
+.text {
   display: flex;
-  justify-content: center;
-  align-items: center;
-}*/
+  flex-wrap: wrap;
+}
 
 
 
