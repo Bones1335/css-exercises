@@ -5,10 +5,15 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
 }
 
 img {
   width: 600px;
+  flex-shrink: 0;
+  justify-content: center;
 }
 
 button {
@@ -16,6 +21,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 10px;
 }
 
 input {
@@ -25,3 +31,49 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*align-content: center;*/
+  flex-wrap: wrap;
+  width: 600px;
+  padding: 20px;
+}
+
+
+
+ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+}
+
+ul li {
+  display: inline;
+}
+
+.footer {
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+a {
+  text-decoration: none;
+  color: rgb(77, 77, 77);
+}
+
+/* 
+  content needs to be centered, but isn't. 
+  links need gaps and proper spacing.
+  lock header and footer.
+*/
