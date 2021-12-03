@@ -8,6 +8,7 @@ body {
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
+  justify-content: stretch;
 }
 
 img {
@@ -41,8 +42,7 @@ input {
 .content {
   display: flex;
   justify-content: center;
-  align-items: center;
-  /*align-content: center;*/
+  align-self: center;
   flex-wrap: wrap;
   width: 600px;
   padding: 20px;
@@ -54,6 +54,7 @@ ul {
   list-style-type: none;
   margin: 10px;
   padding: 10px;
+  
 }
 
 ul li {
@@ -64,7 +65,7 @@ ul li {
   background-color: #eeeeee;
   display: flex;
   justify-content: space-between;
-
+  align-items: flex-end;
 }
 
 a {
