@@ -4,7 +4,6 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  
 }
 
 .header {
@@ -29,7 +28,6 @@ body {
   flex-wrap: wrap;
   flex-direction: row;
   padding: 32px;
-  justify-content: space-between;
 }
 
 .footer {
@@ -48,7 +46,6 @@ body {
   flex-shrink: 0;
   font-size: 24px;
   padding: 16px;
-  
 }
 
 .card {
